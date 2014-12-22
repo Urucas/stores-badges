@@ -1,0 +1,36 @@
+{
+  "name": "stores-badges",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Urucas/stores-badges",
+  "authors": [
+    "Urucas <hello@urucas.com>"
+  ],
+  "description": "Markets store badges",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "markets",
+    "ios",
+    "android",
+    "badge",
+    "widget",
+    "mobile",
+    "appstore",
+    "google",
+    "play",
+    "play"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-component-page": "Polymer/core-component-page#^0.5.0"
+  }
+}

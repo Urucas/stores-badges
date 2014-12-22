@@ -1,0 +1,19 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<polymer-element name="stores-badges" attributes="url market">
+  <template>
+		<style>
+		</style>
+		<div class="">
+			<a href="{{url}}" target="_blank"><img src="/elements/{{market_url}}"/></a>
+		</div>
+  </template>
+	<script>
+    Polymer('stores-badges', {
+			markets_images: {'ios': 'ios.png', "android" : "android.png"},
+			market_url: "android.png",
+			ready: function() {
+				this.market_url = this.markets_images[this.getAttribute("market")];
+			}
+    });
+  </script>
+</polymer-element>

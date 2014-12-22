@@ -21,6 +21,8 @@ Insert the webcomponent on your page,
 <stores-badges url="https://itunes.apple.com/us/app/cineros/id838900914?ls=1&mt=8" market="ios"></stores-badges>
 ```
 
+<img src="https://raw.githubusercontent.com/Urucas/stores-badges/master/screen.png" />
+
 TODO
 ==== 
 Add more markets & image options(different background colors, sizes,..)
